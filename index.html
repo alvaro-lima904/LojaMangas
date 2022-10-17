@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Alvaro Carvalho de Lima">
+    <meta name="robots" content="index, follow">
+
+    <link rel="shortcut icon" href="ExtraImg/icone.jpg" type="image/x-icon">
+    <title>Loja de Mangás</title>
+
+    <!---main css---->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!----font awesome---->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+    <!-- swiper cdn link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i>Mangaly</a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Busque aqui: " id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas far fa-heart"></a>
+                <a href="#" class="fas fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#destaque">Destaques</a>
+                <a href="#recentes">Recentes</a>
+                <a href="#completos">Completos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#destaque" class="fas fa-list"></a>
+        <a href="#recentes" class="fas fa-tags"></a>
+        <a href="#completos" class="fas fas fa-blog"></a>
+    </nav>
+
+    <!-- login form starts  -->
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>Cadastre-se</h3>
+            <span>Nome de Usuário</span>
+            <input type="email" name="" class="box" placeholder="Digite seu email aqui" id="">
+            <span>Senha</span>
+            <input type="password" name="" class="box" placeholder="Digite sua senha aqui" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Lembrar-me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>esqueceu sua senha? <a href="#">clique aqui</a></p>
+            <p>não tem uma conta? <a href="#">crie uma</a></p>
+        </form>
+    </div>
+
+    <!-- login form ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class=" row">
+
+            <div class="content">
+                <h3>Mangaly</h3>
+                <p>O melhor site para comprar seus mangas favoritos e começar a lê-los logo em seguida por um preço considerável.</p>
+                <a href="#" class="btn">Comprar Agora</a>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="ExtraImg/blackCloverManga.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="ExtraImg/bokuNoHeroManga.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="ExtraImg/OnePieceManga.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="ExtraImg/drStoneManga.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="ExtraImg/genjitsuManga.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="ExtraImg/kemonoJihenManga.jpg" alt=""></a>
+                </div>
+                <img src="img/stand.png" class="stand" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>Frete Grátis</h3>
+                <p>o preço é apenas do mangá</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>segurança no pagamento</h3>
+                <p>+100 pagamentos seguros</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Retornos fáceis</h3>
+                <p>10 dias para retornar</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fas fa-headset"></i>
+            <div class="content">
+                <h3>Suporte</h3>
+                <p>Estamos prontos para atendimento</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- destaque section starts  -->
+
+    <section class="destaque" id="destaque">
+
+        <h2 class="heading"> <span>Destaques</span></h2>
+
+        <div class="swiper destaque-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/TBATEDestaque.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The Beginning After The End</h3>
+                        <div class="price">Novel</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/soloLevelingDestaques.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Solo Leveling <br> <br></h3>
+                        <div class="price">Manhwa</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/SurvivalStoryDestaque.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Survival Story Of a Sword King</h3>
+                        <div class="price">Manhwa</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/magicEmperorDestaque.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Magic Emperor <br> <br> </h3>
+                        <div class="price">Manhua</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/OmniscientReaderDestaques.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Omniscient Reader's Viewpoint</h3>
+                        <div class="price">Manhwa</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/overgearedDestaques.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Overgeared <br> <br></h3>
+                        <div class="price">Manhwa</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/bokuNoHeroManga.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Boku no Hero Academia</h3>
+                        <div class="price">Manga</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/omniscientReader2Destaques.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Omniscient Reader's Viewpoint</h3>
+                        <div class="price">Novel</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/hwatagaDoenOegWauisaDestaque.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Hwataga Doen Oegwauisa</h3>
+                        <div class="price">Manhwa</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/sleepingRankerDestaque.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Sleeping Ranker<br> <br></h3>
+                        <div class="price">Manhwa</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="ExtraImg/kaiju8Destaque.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Kaiju No. 8 <br> <br></h3>
+                        <div class="price">Manga</div>
+                        <a href="#" class="btn">Ler Sinopse</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- destaque section ends -->
+
+    <!-- newsletter section starts  -->
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>Se inscreva para sempre receber as atualizações</h3>
+            <input type="email" name="" placeholder="Digite seu email" class="box" id="">
+            <input type="submit" value="Inscreva-se" class="btn">
+        </form>
+
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- recentes section sarts  -->
+
+    <section class="recentes" id="recentes">
+
+        <h2 class="heading"> <span>Recentes</span> </h2>
+
+        <div class="swiper recentes-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/HonzukiAtuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Honzuki no Gekokujou Volume 10</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/RadiantAtuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Radiant <br> Volume 16</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/kaijuNo8Atuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Kaiju No.8 <br> Volume 7</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/SpyXFamilyAtuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Spy X Family <br> Volume 9</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/mashleAtuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Mashle <br> Volume 10</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/SlimeDattaKenAtuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Slime Datta Ken <br> Volume 21</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/blueLockAtuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Blue Lock <br> Volume 20</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/VilandSagaAtuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Vinland Saga <br> Volume 26</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/KenjaNoMagoAtuais.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Kenja no Mago <br> Volume 16</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/bokuNoHeroAtuais.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Boku No Hero <br> Volume 36</h3>
+                        <p class="price"> $15.99 <span>20.99</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- recentes section ends -->
+
+    <!-- desconto section start  -->
+
+    <section class="desconto">
+
+        <div class="content">
+            <h3>No Primeiro Dia de Cada Mês</h3>
+            <h2>50% de desconto</h2>
+            <p>Para você, começar o mês mais do que bem lendo sua obra favorita e deixar ela guardada ai na sua casa.</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+
+        <div class="image">
+            <img src="ExtraImg/SAO2.png" alt="">
+        </div>
+    </section>
+
+    <!-- desconto section end -->
+
+    <!-- completos section start  -->
+
+    <section class="completos" id="completos">
+
+        <h2 class="heading"><span>Obras Terminadas</span></h2>
+
+        <div class="swiper completos-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/KYTerminados.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Kimetsu No Yaiba</h3>
+                        <p>Terminou com 205 capitulos e um extra como encerramento.</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/soloLevelingTerminados.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Solo Leveling</h3>
+                        <p>Terminou com 179 capitulos. <br> <br></p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/drStoneTerminados.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Dr. Stone</h3>
+                        <p>Terminou com 232 capitulos e teve mais um como extra.</p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/saintSeyaTerminados.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Saint Seiya: The lost Canvas</h3>
+                        <p>Terminou com 240 capitulos. <br> <br></p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="ExtraImg/jojolionTerminados.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Jojo Part 8: Jojolion</h3>
+                        <p>Terminou com 110 capitulos. <br> <br></p>
+                        <a href="#" class="btn">Leia Mais</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- completos section end -->
+
+    <!-- footer section start  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Nossa Localização</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>japão</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>brasil</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Coreia</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>China</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>EUA</a>
+            </div>
+
+            <div class="box">
+                <h3>links das seções</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Destaque</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Lançamentos</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Completos</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>informações da conta</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>itens ordenados</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>política de privacidade</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>métodos de pagamento</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>nossos serviços</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+123-456-789</a>
+                <a href="#"><i class="fas fa-phone"></i>+111-222-333</a>
+                <a href="#"><i class="fas fa-envelope"></i>alvarocarv2004@gmail.com</a>
+                <img src="img/worldmap.png" class="map" alt="">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fab fa-linkedin"></a>
+            <a href="#" class="fab fab fa-instagram"></a>
+        </div>
+
+        <div class="credit">criado por <span>Alvaro Carvalho de Lima</span> | Todos direitos reservados.</div>
+    </section>
+
+    <!-- footer section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper js cdn link  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
